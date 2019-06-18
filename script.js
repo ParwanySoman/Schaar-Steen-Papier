@@ -50,7 +50,7 @@ const compareHands = function(playerChoice, computerChoice)
 	//We are checing for a tie
 	if (playerChoice === computerChoice)
 	{
-		winner.textContent = 'it is a tie';
+		winner.textContent = "It's a tie";
 		return;
 	}
 	//check for rock
